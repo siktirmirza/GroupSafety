@@ -1736,7 +1736,7 @@ local function run(msg, matches)
 				resolve_username(username,  callbackres, cbres_extra)
 			else
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested SuperGroup ID")
-				return "Group Safetier!\n~Your ID: "..msg.from.id.."\n\n~SuperGroup Name: " ..string.gsub(msg.to.print_name, "_", " ").. "\n~SuperGroup ID: "..msg.to.id
+				return "Group Safetier!\nYour ID: "..msg.from.id.."\nSuperGroup Name: " ..string.gsub(msg.to.print_name, "_", " ").. "\nSuperGroup ID: "..msg.to.id
 			end
 		end
 
