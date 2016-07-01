@@ -233,7 +233,7 @@ function create_config( )
   "msg_checks"
         
     },
-    sudo_users = {207418094},--Sudo users
+    sudo_users = {229187138},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[🚸Group Safety🚸
 
