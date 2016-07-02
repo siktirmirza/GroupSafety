@@ -71,7 +71,7 @@ return {
 	description = "Help Plugin For Bot", 
 	usage = "chat with robot",
 	patterns = {
-		"^[Ss]afeHelp$",
+		"^!SafeHelp$",
 		}, 
 	run = run,
     --privileged = true,
