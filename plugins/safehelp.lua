@@ -1,7 +1,6 @@
 local function run(msg)
-if msg.text == "Safehelp" then
-	return "
-Commands list :
+if msg.text == "!SafeHelp" then
+	return "Commands list :
 !kick [username|id]
 You can also do it by reply
 !ban [ username|id]
@@ -72,7 +71,7 @@ return {
 	description = "Help Plugin For Bot", 
 	usage = "chat with robot",
 	patterns = {
-		"^[Ss]afe[Hh]elp$",
+		"^[Ss]afeHelp$",
 		}, 
 	run = run,
     --privileged = true,
