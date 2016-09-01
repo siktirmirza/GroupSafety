@@ -233,14 +233,9 @@ function create_config( )
   "msg_checks"
         
     },
-    sudo_users = {229187138},--Sudo users
+    sudo_users = {205906514},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[🚸Group Safety🚸
-
-✅Full Porpurse Bot Based On Lua For Make Safety Your Groups✅
-
-Bot News & Updates : ❕
-@SafetyMyGroups ]],
+    about_text = [[]],
     help_text_realm = [[
 None Realm Helps 🔻
 〰〰〰〰〰〰〰〰〰〰〰
@@ -250,10 +245,9 @@ None Realm Helps 🔻
 And Other.. 📍]],
 	help_text_super =[[💠Group Safety Helps💠
 〰〰〰〰〰〰〰〰〰
-!SafeHelp - Show Group Safe Helps
-!FeedBack [ Text ] - Send Your Message To Admin
+!grehelp - Show The Help
 〰〰〰〰〰〰〰〰
-Group Safety ©]],
+GrenadeBot ©]],
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
