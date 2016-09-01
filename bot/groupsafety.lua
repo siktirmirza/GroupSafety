@@ -243,7 +243,7 @@ None Realm Helps 🔻
 !bc (groupid) (text)
 〰〰〰〰〰〰〰〰〰〰〰
 And Other.. 📍]],
-	help_text_super =[[💠Group Safety Helps💠
+	help_text_super =[[💠GrenadeHelp😉💠
 〰〰〰〰〰〰〰〰〰
 !grehelp - Show The Help
 〰〰〰〰〰〰〰〰
